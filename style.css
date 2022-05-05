@@ -15,6 +15,18 @@ body{
     min-height: 100vh;
 }
 
+body::before {    
+    content: "";
+    background-image: url('bg.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
+
 .card{
     position: relative;
     width: 300px;
